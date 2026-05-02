@@ -1,0 +1,55 @@
+export const CITIES_DATA = [
+  // ── Indian States ──
+  { id: 1,  city: "Delhi",               country: "India", aqi: 187, pm25: 98,  pm10: 145, co: 2.4, no2: 62, status: "Unhealthy" },
+  { id: 2,  city: "Mumbai",              country: "India", aqi: 124, pm25: 54,  pm10: 89,  co: 1.8, no2: 44, status: "Unhealthy for Sensitive" },
+  { id: 3,  city: "Bengaluru",           country: "India", aqi: 78,  pm25: 22,  pm10: 41,  co: 0.9, no2: 28, status: "Moderate" },
+  { id: 4,  city: "Chennai",             country: "India", aqi: 65,  pm25: 17,  pm10: 32,  co: 0.7, no2: 24, status: "Moderate" },
+  { id: 5,  city: "Kolkata",             country: "India", aqi: 156, pm25: 78,  pm10: 122, co: 2.0, no2: 54, status: "Unhealthy" },
+  { id: 6,  city: "Hyderabad",           country: "India", aqi: 88,  pm25: 28,  pm10: 52,  co: 1.1, no2: 32, status: "Moderate" },
+  { id: 7,  city: "Ahmedabad",           country: "India", aqi: 142, pm25: 68,  pm10: 108, co: 1.7, no2: 48, status: "Unhealthy for Sensitive" },
+  { id: 8,  city: "Pune",                country: "India", aqi: 95,  pm25: 34,  pm10: 61,  co: 1.2, no2: 35, status: "Moderate" },
+  { id: 9,  city: "Jaipur",              country: "India", aqi: 138, pm25: 64,  pm10: 102, co: 1.6, no2: 46, status: "Unhealthy for Sensitive" },
+  { id: 10, city: "Lucknow",             country: "India", aqi: 168, pm25: 86,  pm10: 134, co: 2.2, no2: 58, status: "Unhealthy" },
+  { id: 11, city: "Gurugram",            country: "India", aqi: 178, pm25: 92,  pm10: 140, co: 2.3, no2: 60, status: "Unhealthy" },
+  { id: 12, city: "Haryana",           country: "India", aqi: 172, pm25: 88,  pm10: 136, co: 2.2, no2: 58, status: "Unhealthy" },
+  { id: 13, city: "Chandigarh",          country: "India", aqi: 112, pm25: 48,  pm10: 82,  co: 1.5, no2: 40, status: "Unhealthy for Sensitive" },
+  { id: 14, city: "Amritsar",            country: "India", aqi: 132, pm25: 60,  pm10: 98,  co: 1.6, no2: 44, status: "Unhealthy for Sensitive" },
+  { id: 15, city: "Patna",               country: "India", aqi: 162, pm25: 82,  pm10: 128, co: 2.1, no2: 56, status: "Unhealthy" },
+  { id: 16, city: "Bhopal",              country: "India", aqi: 108, pm25: 44,  pm10: 76,  co: 1.4, no2: 38, status: "Unhealthy for Sensitive" },
+  { id: 17, city: "Indore",              country: "India", aqi: 118, pm25: 52,  pm10: 86,  co: 1.5, no2: 42, status: "Unhealthy for Sensitive" },
+  { id: 18, city: "Nagpur",              country: "India", aqi: 92,  pm25: 32,  pm10: 58,  co: 1.2, no2: 34, status: "Moderate" },
+  { id: 19, city: "Visakhapatnam",       country: "India", aqi: 72,  pm25: 20,  pm10: 38,  co: 0.8, no2: 26, status: "Moderate" },
+  { id: 20, city: "Surat",               country: "India", aqi: 128, pm25: 58,  pm10: 94,  co: 1.6, no2: 44, status: "Unhealthy for Sensitive" },
+  { id: 21, city: "Kochi",               country: "India", aqi: 48,  pm25: 10,  pm10: 20,  co: 0.4, no2: 18, status: "Good" },
+  { id: 22, city: "Thiruvananthapuram",  country: "India", aqi: 42,  pm25: 9,   pm10: 17,  co: 0.3, no2: 16, status: "Good" },
+  { id: 23, city: "Guwahati",            country: "India", aqi: 85,  pm25: 26,  pm10: 48,  co: 1.0, no2: 30, status: "Moderate" },
+  { id: 24, city: "Bhubaneswar",         country: "India", aqi: 96,  pm25: 35,  pm10: 62,  co: 1.2, no2: 34, status: "Moderate" },
+  { id: 25, city: "Ranchi",              country: "India", aqi: 102, pm25: 40,  pm10: 68,  co: 1.3, no2: 36, status: "Unhealthy for Sensitive" },
+  { id: 26, city: "Raipur",              country: "India", aqi: 115, pm25: 50,  pm10: 84,  co: 1.5, no2: 40, status: "Unhealthy for Sensitive" },
+  { id: 27, city: "Dehradun",            country: "India", aqi: 88,  pm25: 28,  pm10: 50,  co: 1.1, no2: 30, status: "Moderate" },
+  { id: 28, city: "Shimla",              country: "India", aqi: 32,  pm25: 6,   pm10: 12,  co: 0.2, no2: 12, status: "Good" },
+  { id: 29, city: "Jammu",               country: "India", aqi: 118, pm25: 52,  pm10: 86,  co: 1.5, no2: 42, status: "Unhealthy for Sensitive" },
+  { id: 30, city: "Srinagar",            country: "India", aqi: 75,  pm25: 22,  pm10: 42,  co: 0.9, no2: 28, status: "Moderate" },
+  { id: 31, city: "Agartala",            country: "India", aqi: 68,  pm25: 18,  pm10: 34,  co: 0.7, no2: 24, status: "Moderate" },
+  { id: 32, city: "Imphal",              country: "India", aqi: 62,  pm25: 16,  pm10: 30,  co: 0.6, no2: 22, status: "Moderate" },
+  { id: 33, city: "Shillong",            country: "India", aqi: 45,  pm25: 10,  pm10: 19,  co: 0.3, no2: 16, status: "Good" },
+  { id: 34, city: "Aizawl",              country: "India", aqi: 38,  pm25: 8,   pm10: 15,  co: 0.2, no2: 14, status: "Good" },
+  { id: 35, city: "Kohima",              country: "India", aqi: 40,  pm25: 8,   pm10: 16,  co: 0.2, no2: 14, status: "Good" },
+  { id: 36, city: "Panaji",              country: "India", aqi: 44,  pm25: 9,   pm10: 18,  co: 0.3, no2: 16, status: "Good" },
+];
+
+export const AQI_CONFIG = {
+  "Good":                    { color: "#22c55e", bg: "#052e16", range: "0–50"   },
+  "Moderate":                { color: "#eab308", bg: "#1c1400", range: "51–100" },
+  "Unhealthy for Sensitive": { color: "#f97316", bg: "#1c0a00", range: "101–150"},
+  "Unhealthy":               { color: "#ef4444", bg: "#1c0000", range: "151–200"},
+  "Very Unhealthy":          { color: "#a855f7", bg: "#12001c", range: "201–300"},
+  "Hazardous":               { color: "#dc2626", bg: "#1c0000", range: "301+"   },
+};
+
+export const generateHistory = (baseAqi) =>
+  Array.from({ length: 12 }, (_, i) => ({
+    time: `${String(i * 2).padStart(2, "0")}:00`,
+    aqi:  Math.max(10, baseAqi + Math.round((Math.random() - 0.5) * 40)),
+    pm25: Math.max(2,  Math.round(baseAqi * 0.52 + (Math.random() - 0.5) * 20)),
+  }));

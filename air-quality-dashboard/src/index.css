@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@400;500&display=swap');
+
+:root {
+  --color-good: #22c55e;
+  --color-moderate: #eab308;
+  --color-sensitive: #f97316;
+  --color-unhealthy: #ef4444;
+  --color-very-unhealthy: #a855f7;
+  --color-hazardous: #dc2626;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Syne', sans-serif;
+  background: #020b18;
+  color: #f1f5f9;
+}
+
+.dark body { background: #020b18; }
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 4px; }
+
+input, select { font-family: 'DM Mono', monospace; }
+
+@keyframes gauge-fill {
+  from { stroke-dasharray: 0 999; }
+}
+
+.card-hover {
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+}
