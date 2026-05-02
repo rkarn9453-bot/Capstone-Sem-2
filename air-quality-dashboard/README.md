@@ -1,16 +1,37 @@
-# React + Vite
+# 🌿 AirWatch — Real-Time Air Quality Monitoring Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📸 Screenshots
 
-Currently, two official plugins are available:
+![Dashboard Preview](public/screenshots/Dashboard.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tech Stack
+- ⚛️ React (Vite) + JavaScript ES6+
+- 🗄️ Redux Toolkit (State Management)
+- 🔀 React Router (Navigation)
+- 🎨 Tailwind CSS (Styling)
+- 📊 Recharts (Charts)
+- 🌍 OpenWeatherMap API (Live Data)
+- 🌬️ WAQI API (Air Quality)
 
-## React Compiler
+## ✨ Features
+- 🔍 Search any city or country worldwide
+- 🌙 Dark / Light mode toggle
+- 📊 Interactive AQI line & bar charts
+- 📄 Pagination (6 cities per page)
+- ⚕️ Health advisory with tips
+- 🔄 Real-time auto data refresh
+- ⚡ Lazy loading & memoization
+- 🛡️ Error boundary handling
+- 🔃 Filter + Sort + Search
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Installation & Setup
 
-## Expanding the ESLint configuration
+```bash
+# Clone the project
+git clone your-repo-link
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev

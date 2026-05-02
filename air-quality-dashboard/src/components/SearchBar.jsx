@@ -1,16 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { fetchAirQuality, setSearch } from "../store/airQualitySlice";
-import { useDebounce } from "../hooks/useDebounce";
+import { fetchAirQuality } from "../store/airQualitySlice";
 
 export default function SearchBar() {
   const dispatch = useDispatch();
   const [value, setValue] = useState("");
-  const debounced = useDebounce(value, 600);
-
-  useEffect(() => {
-    dispatch(setSearch(debounced));
-  }, [debounced, dispatch]);
 
   const handleSearch = () => {
     if (value.trim()) {
